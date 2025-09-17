@@ -1,0 +1,106 @@
+project:
+  type: book
+
+book:
+  title: "Civil Procedure"
+  subtitle: Elon Law School
+  author: Eric M. Fink
+  date-format: MMMM YYYY
+  license: "CC BY NC SA"
+  page-navigation: true
+  page-footer:
+      center: 
+        - text: "Last updated: {{< now >}}"
+  sidebar:
+    style: "floating"
+    search: true
+    tools:
+      - icon: envelope
+        menu:
+          - text: Email Prof. Fink
+            href: mailto:efink@elon.edu
+      - icon: calendar
+        menu:
+          - text: Make an appointment
+            href: https://calendly.com/emfink/
+      - icon: file-pdf
+        menu: 
+          - text: "Casebook PDF"
+            href: CivProCasebook.pdf
+      - icon: github
+        menu:
+          - text: Report an issue
+            href:  https://github.com/EricMFink/CivPro/issues/new
+          - text: View source code
+            href:  https://github.com/EricMFink/CivPro
+    collapse-level: 1
+  chapters: 
+    - text: Home
+      href: index.qmd
+    - text: Syllabus
+      href: syllabus.qmd
+    - part: Casebook
+      chapters:
+      - 01-Front/frontispiece.qmd
+      - 01-Front/license.qmd
+      - 01-Front/epigraph.qmd
+      - 01-Front/preface.qmd
+      - 02-Main/chap1.qmd
+      - 02-Main/chap2.qmd
+      - 02-Main/chap3.qmd
+      - 02-Main/chap4.qmd
+      - 02-Main/chap5.qmd
+      - 02-Main/chap6.qmd
+      - 02-Main/chap7.qmd
+      - 02-Main/chap8.qmd
+      - 03-Back/references.qmd
+      - 03-Back/ack.qmd
+      - 03-Back/colophon.qmd
+    - part: Visuals
+      chapters: 
+      - 04-Appendix/civil-litigation.qmd
+      - 04-Appendix/joinder.qmd
+      - 04-Appendix/personal-jurisdiction.qmd
+      - 04-Appendix/subject-matter-jurisdiction.qmd
+      - 04-Appendix/choice-of-law.qmd
+      - 04-Appendix/pleadings.qmd
+      - 04-Appendix/preclusion.qmd
+      - 04-Appendix/summary-judgment.qmd
+    - part: Practice Exam Questions
+      chapters: 
+        - 04-Appendix/exam1.qmd
+        - 04-Appendix/exam2.qmd
+        - 04-Appendix/exam3.qmd
+        - 04-Appendix/exam4.qmd
+        - 04-Appendix/exam5.qmd
+        - 04-Appendix/exam6.qmd
+        - 04-Appendix/exam7.qmd
+        - 04-Appendix/exam8.qmd
+        - 04-Appendix/exam9.qmd
+    - links.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    title-block-style: none
+    reference-location: margin
+    citation-location: margin
+    toc: true
+    number-sections: true
+    number-depth: 2
+    toc-location: left
+    toc-depth: 3
+    include-in-header:
+    - text: |
+        <link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+        <link rel="shortcut icon" href="https://www.emfink.net/assets/img/favicon.ico">
+        <meta name="robots" content="noarchive">
+
+
+

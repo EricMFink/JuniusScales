@@ -1,0 +1,102 @@
+title: Tufte Quarto
+author: Fred Guth
+version: 1.1.0
+quarto-version: ">=1.2.215"
+contributes:
+  project:
+    project:
+      type: book
+    book:
+      open-graph: true
+      author:
+      - name: Eric M. Fink
+        email: efink@elon.edu
+        affiliations:
+          - name: Elon University School of Law
+            address: 201 North Greene Street
+            city: Greensboro
+            state: North Carolina
+            postal-code: 27278
+      date-format: MMMM YYYY
+      license: "CC BY NC SA"
+      downloads: [pdf] 
+      sidebar:
+        tools:
+          - icon: github
+            menu:
+              - text: View source code
+                href:  https://github.com/EricMFink/CivProCasebook
+              - text: Report an issue
+                href:  https://github.com/EricMFink/CivProCasebook/issues/new
+      page-footer:
+          center: 
+            - text: "Last updated: {{< modified >}}"
+    format:
+      html:
+        page-layout: full
+        reference-location: margin
+        citation-location: block
+        title-block-style: none
+        css: styles.css
+        number-sections: true
+        number-depth: 3
+        toc-location: left
+        toc-depth: 4
+        toc-title: "Contents"
+        default-image-extension: png
+        include-in-header:
+          - text: |
+              <link rel="stylesheet" href="https://use.typekit.net/viv2jun.css">
+              <link rel="preconnect" href="https://fonts.googleapis.com">
+              <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+              <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+              <link rel="shortcut icon" href="https://www.emfink.net/assets/img/favicon.ico">
+              <meta name="robots" content="noarchive">
+      pdf:
+        documentclass: tufte-book
+        classoption: [sfsidenotes]
+        output-file: CivProCasebook
+        number-sections: true
+        number-depth: 2
+        toc-depth: 3
+        toc-title: "Contents"
+        indent: 0px
+        reference-location: margin
+        citation-location: margin
+        fig-cap-location: bottom
+        format-resources:
+          - tufte-book.cls
+          - tufte-common.def
+          - tufte.bst
+        template-partials: # replaces
+          - "partials/title.tex"
+          - "partials/before-body.tex"
+        include-in-header: #adds
+          - "partials/in-header.tex"
+          - "partials/definitions.tex"
+        include-after-body: #adds
+          - "partials/after-body.tex"
+        cite-method: citeproc
+        mainfont: "Literata"
+        sansfont: "Adelle Sans"
+        sansfontoptions: "Scale=MatchUppercase"
+        default-image-extension: png
+    filters:
+      - latex-environment
+    commands: 
+      license-i: license-i-command 
+      license-h2: license-h2-command 
+      license-h3: license-h3-command 
+      license-h4: license-h4-command 
+      epigraph-quote: epigraph-quote-command 
+      epigraph-citation: epigraph-citation-command 
+      preface-h2: preface-h2-command 
+      preface-h3: preface-h3-command 
+      center-icon: center-icon-command 
+      center-icon-large: center-icon-large-command 
+      theme-color: theme-color-command 
+      margin-note-style: margin-note-command 
+      small-size: small-size-command 
+      center: center-env-command 
+      mono-face: mono-env-command 
+      sans-serif: sans-env-command

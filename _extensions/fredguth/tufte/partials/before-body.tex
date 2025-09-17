@@ -1,0 +1,15 @@
+\IfFileExists{Images/bookcover.pdf}{\includepdf{Images/bookcover.pdf}\clearpage}{}
+
+\frontmatter
+\maketitle
+\pagenumbering{gobble} 
+
+\IfFileExists{01-Front/license.tex}{\input{01-Front/license.tex}\clearpage}{}
+
+\IfFileExists{01-Front/dedication.tex}{\input{01-Front/dedication.tex}\clearpage}{}
+
+\IfFileExists{01-Front/epigraph.tex}{\input{01-Front/epigraph.tex}\clearpage}{}
+
+\IfFileExists{01-Front/preface.tex}{\input{01-Front/preface.tex}\clearpage}{}
+
+\pagenumbering{arabic}

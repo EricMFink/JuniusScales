@@ -1,0 +1,794 @@
+/*-- scss:defaults --*/
+
+// Typography
+$font-family-base:			"Literata",serif !default;
+$font-family-serif:			"Literata",serif !default;
+$font-family-sans-serif:	"Adelle-Sans",sans-serif !default;
+$font-family-mono:			"LFT-Etica-Mono",monospace !default;
+$font-family-japanese:		"Noto Sans JP",sans-serif !default;
+
+$font-size-base:	 		16px !default;
+$body-size:					1.0rem !default;
+$small-size:				0.9rem !default;
+$smaller-size:				0.8rem !default;
+$smallest-size:				0.7rem !default;
+$tiny-size:					0.6rem !default;
+$micro-size:				0.5rem !default;
+$nano-size:					0.4rem !default;
+$large-size:				1.3rem !default;
+$larger-size:				1.5rem !default;
+$largest-size:				1.7rem !default;
+$huge-size:					2.2rem !default;
+
+$title-size:				2.5rem !default;
+$subtitle-size:				2.0rem !default;
+
+$h1-font-size:				2.5rem !default;
+$h2-font-size:				2.0rem !default;
+$h3-font-size:				1.7rem !default;
+$h4-font-size:				1.4rem !default;
+$h5-font-size:				1.2rem !default;
+$h6-font-size:				1.1rem !default;
+
+$black-weight:				900 !default;
+$heavy-weight:				800 !default;
+$bold-weight:				700 !default;
+$medium-weight:				600 !default;
+$book-weight:				500 !default;
+$normal-weight:				400 !default;
+$light-weight:				300 !default;
+$extra-light-weight:		200 !default;
+$thin-weight:				100 !default;
+
+$line-height-base: 			1.3 !default;
+$short-line-height:			1.2 !default;
+$shorter-line-height:		1.1 !default;
+$tall-line-height:			1.5 !default;
+$taller-line-height:		1.7 !default;
+
+$header-height:				56px !default;
+$footer-height:				40px !default;
+
+// Colors
+$red:						#ff3636 !default;
+$maroon:					#800000 !default;
+$rose:						#f33a6a !default;
+$pink:						#fcebec !default;
+
+$orange:					#f29105 !default;
+$deep-orange:				#973a05 !default;
+$dull-orange:				#b16032 !default;
+
+$yellow:					#efcc00 !default;
+$pastel-yellow:				#fbe7c5 !default;
+$cornsilk:					#fff8dc !default;
+$ivory:						#fffff0 !default;
+
+$green:						#00ab37 !default;
+$racing-green:				#004225 !default;
+$light-green:				#ddffdd !default;
+$nyanza:					#ecffdc !default;
+$pastel-green:				#e8f5df !default;
+
+$blue:						#2698ba !default;
+$dark-blue:					#00369f !default;
+$bright-blue:				#3498db !default;
+$bright-cyan:				#2ea4b0 !default;
+$bright-navy:				#2e55b0 !default;
+$pastel-blue:				#9fd2f7 !default;
+$pastel-blue2:				#aae8fc !default;
+$tar-heel-blue:				#4b9cd3 !default;
+$hopkins-blue:				#002D72 !default;
+$azure:						#f0ffff !default;
+$aliceblue:					#f0f8ff !default;
+
+$white:						#ffffff !default;
+$off-white:					#fffff8 !default;
+$floral-white:				#fffaf0 !default;
+
+$black:						#000000 !default;
+$off-black:					#191919 !default;
+
+$grey:						#828282 !default;
+$dark-grey:					#17202a !default;
+$medium-grey:				#2c3e50 !default;
+$grey20:					#333333 !default;
+$light-grey:				#d5d8dc !default;
+$lighter-grey:				#eeeeee !default;
+$grey-green:				#424949 !default;
+$platinum:					#ebe6e5 !default;
+$gainsboro:					#dfd8dc !default;
+$pastel-grey:				#d4cfbd !default;
+$pastel-grey2:				#edeaf2 !default;
+
+$body-bg:					$floral-white !default;
+$body-color:				$off-black !default;
+$theme-color:				$maroon !default;
+$sidebar-color:				$grey20 !default;
+$margin-note-color:			$racing-green !default;
+$footer-bg:					$floral-white !default;
+$footer-fg:					$off-black !default;
+
+$contrast-color:			$theme-color !default;
+$heading-color:				$theme-color !default;
+
+$link-color:				$hopkins-blue !default;
+$link-hover-color:			$tar-heel-blue !default;
+$link-visited-color:		$link-color !default;
+$link-active-color:			$link-color !default;
+$link-sidebar-color:		$grey20 !default;
+
+$code-block-color:			$grey !default;
+$code-block-bg:				$aliceblue !default;
+$code-color:				$theme-color !default;
+$code-bg:					$pink !default;
+
+$primary:					$theme-color !default;
+$success:					$green !default;
+$danger:					$red !default;
+
+$callout-caution-title:		$rose !default;
+$callout-caution-bg:		$pink !default;
+$callout-important-title:	$rose !default;
+$callout-important-bg:		$pink !default;
+$callout-note-title:		$bright-navy !default;
+$callout-note-bg:			$pastel-blue !default;
+$callout-tip-title:			$bright-navy !default;
+$callout-tip-bg:			$pastel-blue !default;
+$callout-warning-title:		$yellow !default;
+$callout-warning-bg:		$pastel-yellow !default;
+
+$listing-card-border: 		$light-grey !default;
+$listing-card-shadow: 		$pastel-yellow !default;
+$listing-card-shadow-hover: $pastel-grey !default;
+
+$border-color:				$light-grey !default;
+$border-accent-color:		$grey !default;
+$border-width:				1px !default;
+$border-radius:				3px !default;
+
+/*-- scss:rules --*/
+:root {
+	--bs-body-font-family: "Literata",serif;
+	--bs-body-font-size: 18px;
+	--bs-body-font-weight: 300;
+	--bs-body-line-height: 1.3;
+	--bs-body-color: #191919;
+	--bs-body-text-align: left;
+	--bs-body-bg: #fffaf0;
+    --link-color: #002D72;
+
+    --toc-active-color: #800000;
+    --toc-border-color: #d5d8dc;
+
+    --sidebar-fg: #333333;
+    --sidebar-bg-docked: #fffaf0;
+    --sidebar-border: #d5d8dc;
+    --sidebar-active-link-color: #800000;
+    --sidebar-part-color: #800000;
+    --sidebar-input-border: #d5d8dc;
+    --sidebar-form-bg: transparent;
+
+    --figure-img-border: 1px solid #d5d8dc;
+    --figure-img-shadow: 1px 1px 10px #d5d8dc;
+
+    --code-block-color: #828282;
+    --code-block-bg: #fffff8;
+    --code-color: #191919;
+    --code-bg: #fcebec;
+
+    --hl-code-comments: #828282;
+
+    --header-footer-border: #d5d8dc;
+
+    --table-tr-border: #d5d8dc;
+    --table-out-borders: #828282;
+    --table-tr-hover: rgba(0, 0, 0, 0.07);
+
+    --reader-toggle-bg: #fffaf0;
+    --reader-toggle-border: #d5d8dc;
+}
+.table,
+.dataTable {
+    --bs-table-accent-bg: #fff8dc;
+    --bs-table-striped-bg: #d4cfbd;
+}
+
+/* HTML & BODY */
+html {
+	scroll-behavior: smooth;
+}
+body {
+	font-family: "Literata",serif;
+	color: #191919;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 1.3;
+	text-align: left;
+	margin: 0 0 0 0;
+	background-color: #fffaf0;
+    quotes: "‘" "’";
+}
+
+/* HEADINGS */
+/* Chapter */
+h1 {
+	font-family: "Adelle-Sans",sans-serif;
+	color: #800000;
+    font-size: 2.5rem;
+    font-style: normal;
+	font-weight: 600;
+    line-height: 1.2;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+    border: none;
+}
+/* Section */
+h2 {
+	font-family: "Adelle-Sans",sans-serif;
+	color: #800000;
+    font-size: 2.0rem;
+	font-style: normal;
+	font-weight: 400;
+    line-height: 1.2;
+	margin: 4rem 0 0 0;
+	padding: 0 0 0 0;
+    border: none;
+}
+/* Case, Statute, Rule, Note */
+h3 {
+    font-family: "Literata",serif;
+	color: #800000;
+    font-size: 1.4rem;
+    font-style: normal;
+	font-weight: 400;
+    line-height: 1.7;
+	margin: 2rem 0 .5rem 0;
+	padding: 0 0 0 0;
+	max-width: 40rem;
+	border-bottom: 1px solid #800000;
+}
+/* Case, etc. heading 1 */
+h4 {
+    font-family: "Literata",serif;
+    font-size: 1.3rem;
+    font-style: normal;
+	font-weight: 500;
+    line-height: 1.4;
+	text-align: left;
+    margin: 1.5rem 0 .5rem 0;
+    padding: 0 0 0 0;
+	max-width: 40rem;
+    list-style: outside none none !important;
+}
+
+/* Case, etc. heading 2 */
+h5 {
+    font-family: "Literata",serif;
+    font-size: 1.2rem;
+    font-style: italic;
+	font-weight: 300;
+    line-height: 1.2;
+    margin: 1rem 0 .5rem 0;
+    padding: 0 0 0 0;
+	max-width: 40rem;
+    list-style: outside none none !important;
+}
+
+.title .chapter-number {
+    color: #800000;
+    font-size: inherit;
+    margin-right: .5rem;
+}
+
+/* Body Text */
+p {
+    font-size: 1rem;
+    margin: .5rem 0 .5rem 0;
+	max-width: 40rem;
+}
+
+/* Links */
+a {
+	color: #002D72;
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+	color: #002D72;
+}
+/* visited link */
+a:visited {
+	color: #002D72;
+}
+/* mouse over link */
+a:hover {
+	color: #4b9cd3 !important;
+}
+/* selected link */
+a:active {
+	color: #002D72;
+}
+/* Wrap long URLs in references */
+#refs a {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+/* Blockquotes */
+.blockquote {
+    margin: .5rem 0 .5rem 0;
+    padding: 0 2rem 0 2rem;
+	max-width: 40rem;
+	border: none;
+}
+.blockquote p {
+	color: #191919;
+    font-size: 0.9rem;
+    font-style: normal;
+	line-height: 1.3;
+	max-width: 40rem;
+}
+
+/* Notes following cases */
+.note-h1 {
+    font-family: "Literata",serif;
+    color: #191919;
+    font-size: 1.1rem;
+    font-style: normal;
+	font-weight: 500;
+    line-height: 1.2;
+	text-align: left;
+    margin: 1.7rem 0 0 0;
+    padding: 0 0 0 0;
+	max-width: 40rem;
+    border: none;
+    list-style: outside none none !important;
+	display: block;
+}
+.note-h2 {
+    font-family: "Literata",serif;
+    color: #191919;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.2;
+	text-align: left;
+    margin: 1rem 0 0 0;
+    padding: 0 0 0 0;
+	max-width: 40rem;
+    border: none;
+    list-style: outside none none !important;
+	display: block;
+}
+.note-h3 {
+    font-family: "Literata",serif;
+    color: #191919;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.1;
+	text-align: left;
+    margin: 1rem 0 0 0;
+    padding: 0 0 0 0;
+	max-width: 40rem;
+    border: none;
+    list-style: outside none none !important;
+	display: block;
+}
+.note-h4 {
+    font-family: "Literata",serif;
+    color: #191919;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.1;
+	text-align: left;
+    margin: 1rem 0 0 0;
+    padding: 0 0 0 0;
+	max-width: 40rem;
+    border: none;
+    list-style: outside none none !important;
+	display: block;
+}
+
+/* Lists -- ul default is unstyled; use • for bullets */
+ol, ul {
+	padding-left: 1.5rem;
+}
+ul { 
+	list-style-type: none;
+}
+
+
+/* License */
+.license {
+    font-family: "Literata",serif;
+    font-size: .8rem;
+	margin: 0 0 0 0;
+	display: block;
+}
+.license-i {
+	font-size: .9rem;
+	margin: 0 .5rem 0 0;
+	display: block;
+}
+.license-h2 {
+    font-size: .8rem;
+	line-height: 1;
+	margin: 4rem 0 0 0;
+	display: block;
+}
+.license-h3 {
+    font-size: .8rem;
+	font-weight: 300;
+	line-height: 1;
+	margin: 0 0 0 0;
+	display: block;
+}
+.license-h4 {
+    font-family: "LFT-Etica Mono",monospace;
+    font-size: .8rem;
+	line-height: 1;
+	margin: 0 0 1.5rem 0;
+	display: block;
+}
+
+/* Epigraph */
+/* Epigraph Quote */
+.epigraph-quote {
+	font-size: .9rem;
+    font-style: italic;
+    text-align: left;
+    line-height: 1.3;
+    margin: 0.25rem 0 .25rem 0;
+    padding: 0.35rem 2rem 0.35rem 1rem;
+    position: relative;
+    display: block;
+}
+.epigraph-quote:before {
+    color: #800000;
+    font-size: 80px;
+    display: block;
+    padding-left: 10px;
+    content: "\201C";
+    position: absolute;
+    left: -2rem;
+    top: -20px;
+    display: block;
+}
+.epigraph-citation {
+	font-size: .9rem;
+	font-weight: 300;
+	line-height: 1;
+    text-align: right;
+    margin: 0 0 1rem 0;
+	padding: 0 4rem 0 2rem;
+    display: block;
+}
+
+/* Preface */
+.preface-h2 {
+    font-family: "Adelle-Sans",sans-serif;
+    color: #800000;
+    font-size: 1.3rem;
+    line-height: 1;
+    margin: 1rem 0 0 0;
+    display: block;
+}
+.preface-h3 {
+    font-size: 1.1rem;
+    font-style: italic;
+    line-height: 1;
+    margin: 1rem 0 0 0;
+	display: block;
+}
+
+/* REAR MATTER */
+/* References */
+div.csl-bib-body {
+  margin-left:0em;
+  max-width: 40rem;
+}
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  font-size: .9rem;
+  font-weight: 300;
+  line-height: 1.3;
+  margin-left:2em;
+  margin-bottom: 1rem;
+  text-indent:-2em;
+	& a:link {
+		color: #002D72 !important;
+	}
+	& a:visited {
+		color: #002D72 !important;
+	}
+	& a:hover {
+		color: #4b9cd3 !important;
+	}
+	& a:active {
+		color: #002D72 !important;
+	}
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 0em;
+}
+
+/* FOOTER */
+footer {
+	font-family: "Adelle-Sans",sans-serif;
+	color: #424949;
+	font-size: .825rem;
+	background: #eeeeee;
+}
+footer.footer .nav-footer, #quarto-header > nav {
+	background: #eeeeee;
+}
+.nav-footer {
+	min-height: 1rem;
+	background: #eeeeee;
+}
+.nav-footer-center {
+	text-align: center;
+	min-height: 1rem;
+}
+/* Icons */
+.fa-classic, .fa-regular, .fa-solid, .far, .fas {
+	font-family: "Font Awesome 6 Free";
+    color: #800000;
+	font-style: normal;
+	font-weight: 900;
+	line-height: 1;
+	font-variant: normal;
+	text-rendering: auto;
+	display: var(--fa-display,inline-block);
+}
+.center-icon {
+    color: #800000;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	display: block;
+}
+.center-icon-large {
+    color: #800000;
+	font-size: 1.25rem;
+	text-align: center;
+	margin: 0 auto 0 auto;
+	width: 100%;
+	display: block;
+}
+
+/* SPANS */
+.theme-color {
+    color: #800000;
+}
+.margin-note-style { 
+	font-family: "Adelle-Sans",sans-serif;
+    color: #006400;
+	font-weight: 300;
+}
+.small-caps-text {
+  font-variant: small-caps;
+}
+.small-size {
+    font-size: 0.9rem;
+}
+.center {
+	text-align: center;
+}
+.sans-font {
+    font-family: "Adelle-Sans",sans-serif;
+    font-style: normal;
+}
+.mono-font {
+    font-family: "LFT-Etica Mono",monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+.japanese {
+    font-family: "Noto Sans JP",sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.button {
+  display: inline-block;
+  background: #fffff8;
+  border-radius: 4px;
+  font-family: "Adelle Sans";
+  font-size: 80%;
+  color: #191919;
+  padding: 4px 6px;
+}
+
+/* 404 PAGE */
+.gevalt {
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+.gevalt-img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0;
+	width: 50%;
+}
+.gevalt-caption {
+    font-family: "Literata",serif;
+    color: #800000;
+	font-weight: 300;
+	font-size: .9rem;
+	font-style: italic;
+	text-align: center;
+	margin: 1rem 0 0 0;
+	width: 100%;
+	display: block;
+}
+
+/* TUFTE STYLES */
+
+/* Margin content */
+.column-margin {
+    color: #191919;
+    font-size: .625rem;
+}
+.column-margin figcaption, .margin-caption {
+	font-family: "Adelle-Sans",sans-serif;
+    color: #191919;
+    font-size: .625rem;
+}
+/* Side note */
+.column-margin.column-container p {
+    font-size: .625rem;
+	line-height: 1.2;
+	margin: 0 0 .2rem 0;
+}
+/* Margin note */
+.margin-aside, div.aside, aside { 
+	font-family: "Adelle-Sans",sans-serif;
+    color: #006400;
+	font-weight: 300;
+}
+
+/* Sidebar */
+#quarto-sidebar {
+    background: transparent;
+}
+.sidebar {
+    font-family: "Adelle-Sans",sans-serif;
+    
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.sidebar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+.sidebar-navigation li a {
+	font-family: "Literata",serif;
+	color: #333333;
+	font-size: .7rem;
+	font-weight: 300;
+	text-decoration: none;
+	text-transform: none;
+}
+.sidebar-item-container .chapter-number {
+    color: inherit;
+    font-size: .7rem;
+}
+.title .chapter-number {
+	color: inherit; 
+    font-size: 1rem;
+    margin-right: 2rem;
+}
+.header-section-number {
+	color: inherit; 
+    font-size: inherit;
+    margin-right: .5rem;
+}
+header .chapter-title {
+    text-transform: none;
+    font-size: 1rem;
+    letter-spacing: normal;
+}
+.navbar-brand {
+    font-family: "Adelle-Sans",sans-serif;
+    font-style: normal;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+    font-size: 1rem;
+}
+.sidebar-title .sidebar-tools-main {
+	margin-top: .5rem;
+
+}
+.sidebar-tools-main {
+	display: flex;
+	margin: 2rem 0 0 0;
+	order: 2;
+}
+.navbar-brand > a{
+    color: #800000;
+}
+.sidebar nav[role=doc-toc] ul {
+    font-size: .8rem;
+}
+.sidebar nav[role=doc-toc] ul>li>a.active {
+    border-left: 1px solid #800000;
+    color: #800000 !important;
+}
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+    border-left: 1px solid #800000;
+    color: #800000 !important;
+}
+.sidebar-title {
+    font-family: "Adelle-Sans",sans-serif;
+	color: #800000; 
+    font-size: .7rem;
+    font-style: normal;
+    line-height: 1.12rem;
+    text-transform: uppercase;
+    letter-spacing: .11em;
+    margin-top: .25rem;
+    padding-bottom: .5rem;
+    visibility: visible;
+}
+.quarto-secondary-nav-title, .title {
+    font-family: "Adelle-Sans",sans-serif;
+	color: #800000; 
+    font-size: 1.5rem;
+    font-style: normal;
+    line-height: 1.25em; 
+    text-transform: uppercase;
+    letter-spacing: .125em;
+    padding-top: .825rem
+    
+}
+.quarto-secondary-nav-title {
+    font-size: 1.1rem;
+}
+div.sidebar-item-container .active, div.sidebar-item-container :hover, div.sidebar-item-container .show>.nav-link, div.sidebar-item-container .sidebar-link>code {
+    color: #800000;
+}
+nav[role=doc-toc] {
+    padding-bottom: 100px;
+}
+
+/* Figures & Images */
+#fig-cover img {
+    background-color: #fffff8;
+    border: 1px solid #555;
+}
+.figure-img {
+    margin: auto;
+}
+.panel-caption, .figure-caption, figcaption {
+    color: #191919;
+    font-size: .825rem;
+	text-align: center;
+    margin-bottom: .825rem;
+}
+figcaption {
+	font-family: "Adelle-Sans",sans-serif;
+    color: #191919;
+    font-size: .7rem;
+	text-align: center;
+}
+.quarto-figure {
+	position: relative;
+	margin: 1.5rem auto 1.5rem auto;
+}
