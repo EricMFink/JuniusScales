@@ -7,5 +7,5 @@ toc: false
 :::
 
 
-![](img/scales.png)
+![](img/scales.jpg)
 
