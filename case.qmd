@@ -10,26 +10,14 @@ title: Cases
 
 Reversing judgment in 227 F.2d 581 (4th Cir. 1955)
 
-2. 367 U.S. 203 (1961)
-
-[Opinion](pdf/@ScalesUS1961.pdf)
-
-[Notes](notes/@ScalesUS1961.qmd)
+2. [367 U.S. 203 (1961)](pdf/@ScalesUS1961.pdf)
 
 
 ### 4th Circuit
 
-1. 227 F.2d 581 (4th Cir. 1955)
+1. [227 F.2d 581 (4th Cir. 1955)](pdf/@ScalesUS1955.pdf)
 
-[Opinion](pdf/@ScalesUS1955.pdf)
-
-[Notes](notes/@ScalesUS1955.qmd)
-
-2. 260 F.2d 21 (4th Cir. 1958)
-
-[Opinion](pdf/@ScalesUS1958.pdf)
-
-[Notes](notes/@ScalesUS1958.qmd)
+2. [260 F.2d 21 (4th Cir. 1958)](pdf/@ScalesUS1958.pdf)
 
 ### Legal Documents
 
