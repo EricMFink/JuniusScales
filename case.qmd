@@ -1,0 +1,45 @@
+---
+title: Cases 
+---
+
+## Scales v. U.S. 
+
+### Supreme Court 
+
+1. 355 US 1 (1957)
+
+Reversing judgment in 227 F.2d 581 (4th Cir. 1955)
+
+2. 367 U.S. 203 (1961)
+
+[Opinion](pdf/@ScalesUS1961.pdf)
+
+[Notes](notes/@ScalesUS1961.qmd)
+
+
+### 4th Circuit
+
+1. 227 F.2d 581 (4th Cir. 1955)
+
+[Opinion](pdf/@ScalesUS1955.pdf)
+
+[Notes](notes/@ScalesUS1955.qmd)
+
+2. 260 F.2d 21 (4th Cir. 1958)
+
+[Opinion](pdf/@ScalesUS1958.pdf)
+
+[Notes](notes/@ScalesUS1958.qmd)
+
+### Legal Documents
+
+[Indictment](pdf/JuniusScalesIndictment.pdf)
+
+
+### Articles & Other Documents 
+
+[Sandra L. Cobden, James A. Rogers & David Rudenstine, "Imprisoned for Membership: The Junius Scales Case", 11 Cardozo L. Rev. 791 (1990)](pdf/@Cobden1990.pdf)
+
+[Mark Sheft, "The End of the Smith Act Era: A Legal and Historical Analysis of Scales v. United States",  36 American Journal of Legal History 164 (1992)](pdf/@Sheft1992.pdf)
+
+[Civil Rights Congress, _The "Crimes" of Claude Lightfoot and Junius Scales_ (1955)](pdf/@CrimesClaudeLightfoot1955)
