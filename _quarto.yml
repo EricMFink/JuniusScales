@@ -22,14 +22,11 @@ website:
       - href: index.qmd
         text: Home
       - href: case.qmd
-        text: Scales v. U.S.
-      - href: smith_act.qmd
-        text: Smith Act
+        text: Case
       - href: junius_scales.qmd
         text: Junius Scales
       - href: mcneil_smith.qmd
         text: McNeil Smith 
-
 
 format:
   html:
@@ -47,5 +44,3 @@ format:
         <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="https://www.emfink.net/assets/img/favicon.ico">
         <meta name="robots" content="noarchive">
-
-
