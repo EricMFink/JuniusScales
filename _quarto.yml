@@ -21,12 +21,10 @@ website:
     contents: 
       - href: index.qmd
         text: Home
-      - href: case.qmd
-        text: Case
-      - href: junius_scales.qmd
-        text: Junius Scales
-      - href: mcneil_smith.qmd
-        text: McNeil Smith 
+      - href: sources.qmd
+        text: Sources
+      - href: notes.qmd
+        text: Notes
 
 format:
   html:

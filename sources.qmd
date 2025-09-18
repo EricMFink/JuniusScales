@@ -1,5 +1,5 @@
 ---
-title: Cases 
+title: Sources
 ---
 
 ## Scales v. U.S. 
@@ -13,8 +13,6 @@ Reversing judgment in 227 F.2d 581 (4th Cir. 1955)
 2. [367 U.S. 203 (1961)](pdf/ScalesUS1961.pdf)
 
 Affirming judgment in 260 F.2d 21 (4th Cir. 1958)
-
-[Notes](notes/Scales_v_US_SupCt_1961.qmd)
 
 ### 4th Circuit
 
@@ -32,8 +30,6 @@ Affirming judgment in 260 F.2d 21 (4th Cir. 1958)
 
 [62 Stat. 808 (1948)](pdf/SmithActAmendment1948.pdf)
 
-[Notes](notes/smith_act.qmd)
-
 ### Articles & Other Documents 
 
 [Sandra L. Cobden, James A. Rogers & David Rudenstine, "Imprisoned for Membership: The Junius Scales Case", 11 Cardozo L. Rev. 791 (1990)](pdf/Cobden1990.pdf)
@@ -41,3 +37,19 @@ Affirming judgment in 260 F.2d 21 (4th Cir. 1958)
 [Mark Sheft, "The End of the Smith Act Era: A Legal and Historical Analysis of Scales v. United States", 36 American Journal of Legal History 164 (1992)](pdf/Sheft1992.pdf)
 
 [Civil Rights Congress, _The "Crimes" of Claude Lightfoot and Junius Scales_ (1955)](pdf/CrimesClaudeLightfoot1955)
+
+## Junius Scales
+
+[Junius Scales Papers, UNC Library](https://finding-aids.lib.unc.edu/catalog/04879)
+
+[Mickey Friedman, A Red Family: Junius, Gladys, & Barbara Scales](https://aredfamily.com/)
+
+[Holly Coryell, "An Old Communist Ponders Life As A Red Menace -- Scales Worked In The South For Rights Of Blacks", Seattle Times (September 1, 1996)](pdf/Coryell1996.pdf)
+
+["Junius Scales", From the Rock Wall](https://www.fromtherockwall.org/people/junius-scales)
+
+[Matt Robinson, "Junius Irving Scales", IndyWeek (Aug. 14 2002)](pdf/Robinson2002.pdf)
+
+## McNeill Smith
+
+[Oral history interview with McNeill Smith, Greensboro Public Library Oral History Project](https://crdl.usg.edu/record/ncgu_greensborovoices_jmsmith-int)

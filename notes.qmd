@@ -1,0 +1,7 @@
+---
+title: Notes
+---
+
+[Scales v. U.S. 367 U.S. 203 (1961)](md/Scales_v_US_SupCt_1961.qmd)
+
+[Smith Act](md/smith_act.qmd)
