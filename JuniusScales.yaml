@@ -375,7 +375,7 @@ references:
     - family: Holden
       given: Charles J.
   citation-key: Holden2008
-  container-title: North Carolina History Review
+  container-title: North Carolina Historical Review
   issue: '1'
   issued:
     - year: 2008
@@ -486,9 +486,26 @@ references:
   page: '537'
   title: >-
     The Oral History of the Left in the United States: A Survey and
-    Interpretation on JSTOR
+    Interpretation
   type: article-journal
   URL: >-
     https://www-jstor-org.elon.idm.oclc.org/stable/1907991?searchText=%22Junius%20Scales%22&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3D%2522Junius%2520Scales%2522%26so%3Drel%26efqs%3DeyJjdHkiOlsiYW05MWNtNWhiQT09Il19%26pagemark%3DeyJwYWdlIjo0LCJzdGFydCI6NzUsInRvdGFsIjo5OX0%253D%26groupefq%3DWyJjb250cmlidXRlZF9hdWRpbyIsInNlYXJjaF9jaGFwdGVyIiwicmV2aWV3Iiwic2VhcmNoX2FydGljbGUiLCJjb250cmlidXRlZF90ZXh0IiwiY29udHJpYnV0ZWRfdmlkZW8iLCJtcF9yZXNlYXJjaF9yZXBvcnRfcGFydCIsInJlc2VhcmNoX3JlcG9ydCJd&ab_segments=0%2Fbasic_phrase_search%2Fcontrol&refreqid=fastly-default%3A8def89353bf90279a1a84be6175e4bd4&seq=1
   volume: '76'
+
+- id: Link1965
+  accessed:
+    - year: 2025
+      month: 9
+      day: 18
+  author:
+    - family: Link
+      given: William
+  citation-key: Link1965
+  container-title: North Carolina Historical Review
+  issued:
+    - year: 1965
+  page: '198'
+  title: William Friday and the North Carolina Speaker Ban Crisis, 1963-1968
+  type: article-journal
+  volume: '72'
 ...
