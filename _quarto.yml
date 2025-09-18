@@ -22,7 +22,7 @@ website:
       - href: index.qmd
         text: Home
       - href: case.qmd
-        text: Smith v. U.S.
+        text: Scales v. U.S.
       - href: smith_act.qmd
         text: Smith Act
       - href: junius_scales.qmd

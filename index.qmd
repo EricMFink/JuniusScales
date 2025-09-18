@@ -2,9 +2,7 @@
 toc: false
 ---
 
-::: {.content-hidden unless-format="revealjs"}
-# Home {.unnumbered}
-:::
+# Scales v. U.S.: M.D.N.C. History Project {.unnumbered}
 
 
 ![](img/scales.jpg)
