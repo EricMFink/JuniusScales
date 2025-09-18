@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://EricMFink.github.io/JuniusScales/junius_scales.html</loc>
-    <lastmod>2025-09-18T14:55:54.669Z</lastmod>
+    <loc>https://EricMFink.github.io/JuniusScales/notes.html</loc>
+    <lastmod>2025-09-18T17:45:44.390Z</lastmod>
   </url>
   <url>
-    <loc>https://EricMFink.github.io/JuniusScales/case.html</loc>
-    <lastmod>2025-09-18T14:55:34.040Z</lastmod>
-  </url>
-  <url>
-    <loc>https://EricMFink.github.io/JuniusScales/notes/Scales_v_US_SupCt_1961.html</loc>
-    <lastmod>2025-09-18T14:30:35.048Z</lastmod>
+    <loc>https://EricMFink.github.io/JuniusScales/md/Scales_v_US_SupCt_1961.html</loc>
+    <lastmod>2025-09-18T17:40:07.039Z</lastmod>
   </url>
   <url>
     <loc>https://EricMFink.github.io/JuniusScales/index.html</loc>
-    <lastmod>2025-09-18T14:57:45.162Z</lastmod>
+    <lastmod>2025-09-18T17:40:07.039Z</lastmod>
   </url>
   <url>
-    <loc>https://EricMFink.github.io/JuniusScales/mcneill_smith.html</loc>
-    <lastmod>2025-09-18T00:31:12.799Z</lastmod>
+    <loc>https://EricMFink.github.io/JuniusScales/md/smith_act.html</loc>
+    <lastmod>2025-09-18T17:40:07.039Z</lastmod>
   </url>
   <url>
-    <loc>https://EricMFink.github.io/JuniusScales/notes/smith_act.html</loc>
-    <lastmod>2025-09-18T00:31:12.850Z</lastmod>
+    <loc>https://EricMFink.github.io/JuniusScales/sources.html</loc>
+    <lastmod>2025-09-18T17:46:24.088Z</lastmod>
   </url>
 </urlset>
