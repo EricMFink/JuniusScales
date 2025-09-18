@@ -1,0 +1,343 @@
+---
+references:
+- id: JuniusScales19202002_nd
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  citation-key: JuniusScales19202002_nd
+  title: >-
+    Junius Scales (1920-2002) · Jewish Life at Carolina · Carolina Story:
+    Virtual Museum of University History
+  type: webpage
+  URL: https://museum.unc.edu/exhibits/show/jewishlife/junius-scales--1920-2002-
+
+- id: Scales2005
+  abstract: >-
+    On November 18, 1954, Junius Irving Scales, the Communist Party district
+    organizer for the upper South, was arrested on a quiet Memphis street by FBI
+    agents. Charged with violation of the Smith Act of 1940, Scales spent the
+    next six years ensnared in a legal system that was in thrall to a daunting
+    force: McCarthyism. Scales’s case twice reached the U.S. Supreme Court;
+    ultimately, his lower-court guilty verdict was upheld. Scales served fifteen
+    months in Lewisburg Penitentiary before his six-year sentence was commuted
+    by President Kennedy in 1962.
+
+
+    Cause at Heart follows Scales from his privileged southern upbringing
+    through the awakening of his social conscience, his civil- and labor- rights
+    work for the Party across the South, his arrest and trials, his
+    disillusionment with the Party, and his time in prison. Even behind bars
+    Scales refused to cooperate with his prosecutors, to “name names.” In their
+    foreword, Vernon Burton and James Barrett draw chilling parallels between
+    the Smith Act, the legal grounds on which Scales was convicted, and
+    contemporary restrictions on individual rights such as the Patriot Act.
+    Today, as it did sixty-plus years ago, “Congress has radically expanded the
+    description of what constitutes a threat to the U.S. government.”
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  author:
+    - family: Scales
+      given: Junius Irving
+    - family: Nickson
+      given: Richard
+  citation-key: Scales2005
+  issued:
+    - year: 2005
+  language: en-US
+  publisher: University of Georgia Press
+  title: 'Cause at Heart: A Former Communist Remembers'
+  type: book
+  URL: https://www.ugapress.org/9780820327853/cause-at-heart/
+
+- id: ScalesUS1961
+  authority: Supreme Court
+  citation-key: ScalesUS1961
+  container-title: US
+  issued:
+    - year: 1961
+  page: '203'
+  title: Scales v. U.S.
+  type: legal_case
+  volume: '367'
+
+- id: ScalesUS1958
+  authority: 4th Circuit
+  citation-key: ScalesUS1958
+  container-title: F. 2d
+  issued:
+    - year: 1958
+  page: '21'
+  title: Scales v. U.S.
+  type: legal_case
+  volume: '260'
+
+- id: JuniusIrvingScales_nd
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  citation-key: JuniusIrvingScales_nd
+  title: Junius Irving Scales Papers, 1940-1987
+  type: webpage
+  URL: https://finding-aids.lib.unc.edu/catalog/04879
+
+- id: JuniusScales_nd
+  abstract: >-
+    "There was tremendous resentment from generations from mistreatment. Most of
+    the black women leaders, at least up until the time of the union, had never
+    had an encounter with a white person that wasn't painful, humiliating or
+    worse. So trying to get this across to white guys who were from the North, a
+    lot of them, from outside the area, it was one hell of a thing."
+
+    - Junius Scales
+
+    Born in Greensboro in 1920, Scales moved with his family to Chapel Hill in
+    1936 where he completed his senior year…
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  citation-key: JuniusScales_nd
+  note: >-
+    Context Object:
+    ctx_ver=Z39.88-2004&rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&rfr_id=info%3Asid%2Fomeka.org%3Agenerator&rft.subject=Scales%2C+Junius&rft.description=%22There+was+tremendous+resentment+from+generations+from+mistreatment.+Most+of+the+black+women+leaders%2C+at+least+up+until+the+time+of+the+union%2C+had+never+had+an+encounter+with+a+white+person+that+wasn%27t+painful%2C+humiliating+or+worse.+So+trying+to+get+this+across+to+white+guys+who+were+from+the+North%2C+a+lot+of+them%2C+from+outside+the+area%2C+it+was+one+hell+of+a+thing.%22%0A-+Junius+Scales%0ABorn+in+Greensboro+in+1920%2C+Scales+moved+with+his+family+to+Chapel+Hill+in+1936+where+he+completed+his+senior+year%E2%80%A6&rft.title=Junius+Scales&rft.type=Person&rft.identifier=https%3A%2F%2Fwww.fromtherockwall.org%2Fpeople%2Fjunius-scales
+  title: Junius Scales
+  type: webpage
+  URL: https://www.fromtherockwall.org/people/junius-scales
+
+- id: OralHistoryInterview_nd
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  citation-key: OralHistoryInterview_nd
+  title: Oral history interview with McNeill Smith - Civil Rights Digital Library
+  type: webpage
+  URL: https://crdl.usg.edu/record/ncgu_greensborovoices_jmsmith-int
+
+- id: T.1962
+  abstract: >-
+    The infamous “membership clause” of the Smith Act makes it a criminal
+    offense to be a “knowing” member of any organization which “advocates” the
+    violent overthrow of the government. Evidence of specific actions aimed at
+    revolution is not required for …
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  author:
+    - family: T.
+      given: S.
+  citation-key: T.1962
+  container-title: Dissent Magazine
+  issued:
+    - year: 1962
+      season: 1
+  title: The Case of Junius Scales
+  type: article-magazine
+  URL: https://www.dissentmagazine.org/article/the-case-of-junius-scales/
+
+- id: IndictmentUSJunius1954
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  citation-key: IndictmentUSJunius1954
+  issued:
+    - year: 1954
+      month: 11
+      day: 18
+  title: Indictment, U.S. v. Junius Irving Scales
+  type: document
+  URL: >-
+    https://www.archives.gov/exhibits/documented-rights/exhibit/section4/detail/scales-indictment-transcript.html
+
+- id: Robinson2002
+  abstract: >-
+    In a time long ago and in a place beneath your feet, a notable person came
+    to his sisters’ and brothers’ aid during a time of censorship and
+    repression. That man was Junius Scales, that place was Chapel Hill, and that
+    time was the late 1930s to the early 1950s. Scales was a communist when […]
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  author:
+    - family: Robinson
+      given: Matt
+  citation-key: Robinson2002
+  container-title: INDY Week
+  issued:
+    - year: 2002
+      month: 8
+      day: 14
+  language: en-US
+  title: Junius Irving Scales, 1920-2002
+  type: post-weblog
+  URL: http://indyweek.com/news/archives-news/junius-irving-scales/
+
+- id: Cobden1990
+  author:
+    - family: Cobden
+      given: Sandra
+    - family: Rogers
+      given: James
+    - family: Rudenstine
+      given: David
+  citation-key: Cobden1990
+  container-title: Cardozo Law Review
+  ISSN: 2169-4893
+  issue: '4'
+  issued:
+    - year: 1990
+      month: 5
+      day: 1
+  page: 791-802
+  source: COinS
+  title: 'Imprisoned for Membership: The Junius Scales Case'
+  title-short: Imprisoned for Membership
+  type: article-journal
+  URL: https://larc.cardozo.yu.edu/clr/vol11/iss4/3
+  volume: '11'
+
+- id: Friedman2009
+  abstract: >-
+    One of the few publicly known communists in the South, Junius Scales
+    organized textile workers, fought segregation, and was the only American to
+    be imprisoned under the membership clause of the Smith Act during the
+    McCarthy years. This compact collective memoir, built on three
+    interconnected oral histories and including a historical essay by Gail
+    O'Brien, covers Scales's organizing activities and work against racism in
+    the South, his progressive disillusionment with Party bureaucracy and
+    dogmatic rigidity, his persecution and imprisonment, as well as his family's
+    radicalism and response to FBI hounding and blacklisting.Through the
+    distinct perspectives of Junius, his wife Gladys, and his daughter Barbara,
+    this book deepens and personalizes the story of American radicalism.
+    Conversational, intimate, and exceptionally accessible, A Red Family offers
+    a unique look at the American communist experience from the inside out.
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  author:
+    - family: Friedman
+      given: Mickey
+  citation-key: Friedman2009
+  issued:
+    - year: 2009
+  language: en
+  publisher: University of Illinois Press
+  title: 'A Red Family: Junius, Gladys, and Barbara Scales'
+  type: book
+  URL: https://www.press.uillinois.edu/books/?id=p076046
+
+- id: Sheft1992
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  author:
+    - family: Sheft
+      given: Mark A.
+  citation-key: Sheft1992
+  container-title: American Journal of Legal History
+  issue: '2'
+  issued:
+    - year: 1992
+  page: 164-202
+  title: >-
+    The End of the Smith Act Era: A Legal and Historical Analysis of Scales v.
+    United States on JSTOR
+  type: article-journal
+  URL: >-
+    https://www-jstor-org.elon.idm.oclc.org/stable/845856?searchText=%22Junius%20Scales%22&searchUri=%2Faction%2FdoBasicSearch%3FQuery%3D%2522Junius%2520Scales%2522%26so%3Drel&ab_segments=0%2Fbasic_phrase_search%2Fcontrol&refreqid=fastly-default%3A72400dd89c30dbe87755fb7482cb6b40&seq=1
+  volume: '36'
+
+- id: Proyect_nd
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  author:
+    - family: Proyect
+      given: Louis
+  citation-key: Proyect_nd
+  title: Junius Scales (by L. Proyect)
+  type: webpage
+  URL: https://www.columbia.edu/~lnp3/mydocs/american_left/scales.htm
+
+- id: CrimesClaudeLightfoot1955
+  citation-key: CrimesClaudeLightfoot1955
+  issued:
+    - year: 1955
+  publisher: Civil Rights Congress
+  title: The "Crimes" of Claude Lightfoot and Junius Scales
+  type: document
+  URL: https://www.crmvet.org/docs/55_crc_lightfoot.pdf
+
+- id: RedFamily_nd
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  citation-key: RedFamily_nd
+  title: A Red Family
+  type: webpage
+  URL: https://aredfamily.com/
+
+- id: Coryell1996
+  accessed:
+    - year: 2025
+      month: 7
+      day: 14
+  author:
+    - family: Coryell
+      given: Holly
+  citation-key: Coryell1996
+  container-title: The Seattle Times
+  event-place: Seattle, Washington
+  issued:
+    - year: 1996
+      month: 9
+      day: 1
+  publisher-place: Seattle, Washington
+  title: >-
+    An Old Communist Ponders Life As A Red Menace -- Scales Worked In The South
+    For Rights Of Blacks
+  type: article-newspaper
+  URL: >-
+    https://archive.seattletimes.com/archive/19960901/2347082/an-old-communist-ponders-life-as-a-red-menace----scales-worked-in-the-south-for-rights-of-blacks
+
+- id: ScalesUS1955
+  authority: 4th Circuit
+  citation-key: ScalesUS1955
+  container-title: F. 2d
+  issued:
+    - year: 1955
+  page: '581'
+  title: Scales v. U.S.
+  type: legal_case
+  volume: '227'
+
+- id: SmithAct1940
+  citation-key: SmithAct1940
+  issued:
+    - year: 1940
+  number: 54 Stat. 670-71
+  title: Smith Act (1940)
+  type: legislation
+
+- id: SmithActAmendment1948
+  citation-key: SmithActAmendment1948
+  container-title: U.S.C.
+  issued:
+    - year: 1948
+  number: 62 Stat. 808
+  section: '2385'
+  title: Smith Act (Amendment)
+  type: legislation
+  volume: '18'
+...

@@ -24,13 +24,13 @@ Affirming judgment in 260 F.2d 21 (4th Cir. 1958)
 
 ### Legal Documents
 
-[Indictment](pdf/JuniusScalesIndictment.pdf)
+[Indictment](pdf/IndictmentUSJunius1954.pdf)
 
 ### Smith Act 
 
 [54 Stat. 670-71, sec. 2(a)(3) (1940)](pdf/SmithAct1940.pdf)
 
-[62 Stat. 808 (1948)](pdf/SmithAct1948.pdf)
+[62 Stat. 808 (1948)](pdf/SmithActAmendment1948.pdf)
 
 [Notes](notes/smith_act.qmd)
 
