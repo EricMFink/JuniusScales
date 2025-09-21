@@ -23,7 +23,7 @@ website:
         text: Home
       - href: sources.qmd
         text: Sources
-      - href: notes.qmd
+      - href: annots.qmd
         text: Notes
 
 format:
