@@ -34,7 +34,7 @@ Belknap, Michal R. Cold War Political Justice: The Smith Act, the Communist Part
 
 [Buhle, Paul, and Robin D. G. Kelley. “The Oral History of the Left in the United States: A Survey and Interpretation.” Journal of American History 76 (1989): 537](pdf/Buhle1989.pdf)
 
-Gilmore, Glenda Elizabeth. Defying Dixie: The Radical Roots of Civil Rights, 1919-1950. W. W. Norton & Company, 2009
+[Gilmore, Glenda Elizabeth. Defying Dixie: The Radical Roots of Civil Rights, 1919-1950. W. W. Norton & Company, 2009](pdf/Gilmore2000.pdf)
 
 [Holden, Charles J. “‘Patriotism Does Not Mean Stupidity’: Student Antiwar Activism at UNC in the 1930s.” North Carolina Historical Review 85, no. 1 (2008): 29–56](pdf/Holden2008.pdf)
 
@@ -44,7 +44,7 @@ Gilmore, Glenda Elizabeth. Defying Dixie: The Radical Roots of Civil Rights, 191
 
 [Coryell, Holly. “An Old Communist Ponders Life As A Red Menace -- Scales Worked In The South For Rights Of Blacks.” The Seattle Times (Seattle, Washington), September 1, 1996](pdf/Coryell1996.pdf)
 
-Friedman, Mickey. A Red Family: Junius, Gladys, and Barbara Scales. University of Illinois Press, 2009
+[Friedman, Mickey. A Red Family: Junius, Gladys, and Barbara Scales. University of Illinois Press, 2009](pdf/Friedman2009.epub)
 
 [Friedman, Mickey. A Red Family: Junius, Gladys, and Barbara Scales (website)](https://aredfamily.com/)
 
@@ -67,5 +67,7 @@ Taylor, Gregory S. The History of the North Carolina Communist Party. Univ of So
 [“The ‘Crimes’ of Claude Lightfoot and Junius Scales.” Civil Rights Congress, 1955](pdf/CrimesClaudeLightfoot1955.pdf)
 
 ## V. McNeill Smith
+
+[McNeill Smith Papers, UNC Southern Historical Collection](https://finding-aids.lib.unc.edu/catalog/04990)
 
 [Oral History Interview with McNeill Smith, Civil Rights Digital Library](https://crdl.usg.edu/record/ncgu_greensborovoices_jmsmith-int)
