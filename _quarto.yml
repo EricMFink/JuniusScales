@@ -16,7 +16,7 @@ website:
           - text: Report an issue
             href:  https://github.com/EricMFink/JuniusScales/issues/new
           - text: View source code
-            href:  https://github.com/JuniusScales
+            href:  https://github.com/EricMFink/JuniusScales
     collapse-level: 2
     contents: 
       - href: index.qmd
