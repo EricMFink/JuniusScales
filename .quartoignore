@@ -2,5 +2,5 @@ LICENSE
 .github/
 .gitignore
 /.pdf
-templates/*.md
+assets/templates/*.md
 .obsidian/

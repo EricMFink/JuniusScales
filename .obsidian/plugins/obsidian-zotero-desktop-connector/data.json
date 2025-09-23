@@ -22,7 +22,8 @@
       "outputPathTemplate": "notes/@{{citekey}}.md",
       "imageOutputPathTemplate": "notes/img/{{citekey}}",
       "imageBaseNameTemplate": "((citekey))-img",
-      "cslStyle": "bluebook-law-review"
+      "cslStyle": "bluebook-law-review",
+      "templatePath": "assets/templates/zotero-notes.md"
     }
   ],
   "citeSuggestTemplate": "[[{{citekey}}]]",
