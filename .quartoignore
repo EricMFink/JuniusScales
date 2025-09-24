@@ -2,5 +2,5 @@ LICENSE
 .github/
 .gitignore
 /.pdf
-**/zotero-notes.md
+templates/*.md
 .obsidian/
