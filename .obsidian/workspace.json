@@ -1,0 +1,236 @@
+{
+  "main": {
+    "id": "0fedf3c2922dbada",
+    "type": "split",
+    "children": [
+      {
+        "id": "30199750b4e144a3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "089d65897aad940b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "45049b2f706b6779",
+    "type": "split",
+    "children": [
+      {
+        "id": "be3253668b222294",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf490be3765810f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8f14bc8c91c64cbd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "path:\"SupremeCourtReview2026/notes/\" ",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f10f67bf9b2112f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 303.5
+  },
+  "right": {
+    "id": "7e1314546b4d1164",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e84f5f848e3c455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47ef1c3ccc59b545",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3cc383006f4bb8ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "dfd7cb607133cdb0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5892b72f92484a66",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "8522bba6bb384b16",
+            "type": "leaf",
+            "state": {
+              "type": "ReferenceListView",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "ReferenceListView"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:Open command palette": false,
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": true,
+      "templates:Insert template": true,
+      "iconic:Open rulebook": false,
+      "templater-obsidian:Templater": false,
+      "quickadd:QuickAdd": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "media-extended:Open external media": false,
+      "image-picker:Open Image Picker": false,
+      "file-cleaner-redux:Clean files": false,
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "peerdraft:Show my Peerdraft Shares": false
+    }
+  },
+  "active": "cf490be3765810f8",
+  "lastOpenFiles": [
+    "Other State Laws/notes/@WyomingCriminalTrespass2015.md",
+    "Other State Laws/notes/@WyomingCivilTrespass2015.md",
+    "DataTrespass/notes/@WrightElecIncOuellette_MinnCtApp2004.md",
+    "AgGag/notes/@Wright2024.md",
+    "DataTrespass/notes/@WolfStreetSupermarketsInc_NYAppDiv1985.md",
+    "DataTrespass/notes/@WholeFoodsMarketInc_NLRB2015.md",
+    "DataTrespass/notes/@WhiteOakManor_NLRB2009.md",
+    "DataTrespass/notes/@Whistler2024.md",
+    "Other State Laws/notes/@WesternWatershedsProjectMichael_DWyo2018.md",
+    "Other State Laws/notes/@WesternWatershedsProjectMichael_DWyo2016.md",
+    "Other State Laws/notes/@WesternWatershedsProjectMichael_10thCir2017.md",
+    "DataTrespass/notes/@WellstreamCorp_NLRB1994.md",
+    "DataTrespass/notes/@Walsh2016.md",
+    "DataTrespass/notes/@WalMartStoresIncUnited_CalCtApp2016.md",
+    "NCPPA/notes/@Verger2015.md",
+    "DataTrespass/notes/@VanBourg1998.md",
+    "Other State Laws/notes/@UtahAgTrespass2023.md",
+    "Other State Laws/notes/@UtahAgriculturalOperation2023.md",
+    "DataTrespass/notes/@Twomey2004.md",
+    "NCPPA/notes/@TuckerAutoMationNorthCarolina_MDNC2017.md",
+    "DataTrespass/notes/@Townsend2023.md",
+    "DataTrespass/notes/@ToeringElectricCo_NLRB2007.md",
+    "DataTrespass/notes/@TMobileUSAInc_NLRB2016.md",
+    "DataTrespass/notes/@TKOFleetEnterprisesDistrict_EDNY1999.md",
+    "DataTrespass/notes/@TimesHeraldRecord_NLRB2001.md",
+    "Other State Laws/notes/@TimberAutomationLLCFiberPro_WDArk2020.md",
+    "Labor & Employment Law/notes",
+    "Labor & Employment Law",
+    "other/notes",
+    "other",
+    "Agricultural Employees/notes",
+    "Agricultural Employees",
+    "NCPPA/notes",
+    "NCPPA",
+    "AgGag/notes",
+    "AgGag",
+    "JuniusScales/_site/img/scales.jpg",
+    "JuniusScales/_extensions/schochastics/academicons/assets/webfonts/academicons.svg",
+    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/ringed-seal.png",
+    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/otter-bar.jpeg",
+    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/nmfs-opensci-logo.png",
+    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/logo.png",
+    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/corner-bg.png",
+    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/TheGreatWaveoffKanagawa.jpeg",
+    "JuniusScales/assets/img/scales.jpg",
+    "Unemployment Comp & Political Activity/documents/Instagram post about Olivia Lynch.png"
+  ]
+}

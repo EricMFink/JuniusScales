@@ -1,0 +1,10 @@
+{
+  "enabledCssSnippets": [
+    "zotero-notes"
+  ],
+  "accentColor": "#f55c5c",
+  "theme": "moonstone",
+  "monospaceFontFamily": "LFT Etica Mono,Source Code Pro",
+  "textFontFamily": "Lato,Proza Libre",
+  "nativeMenus": false
+}
