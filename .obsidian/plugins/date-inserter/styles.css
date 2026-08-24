@@ -259,42 +259,74 @@
   box-shadow: 0 0 0.25em 0.25em rgba(39, 107, 218, 0.2);
 }
 
-:root {
-  --date-inserter-modal-height: 388px;
-}
-
 .modal.date-inserter-modal {
-  height: var(--date-inserter-modal-height);
-  width: 340px;
+  height: max-content;
+  width: max-content;
+  padding: 16px;
+}
+.modal.date-inserter-modal:has(.format-buttons) {
+  padding-bottom: 16px;
 }
 .modal.date-inserter-modal .datepicker-view {
   color: #000;
 }
+.modal.date-inserter-modal .datepicker-dropdown {
+  padding: 0;
+}
+.modal.date-inserter-modal .modal-close-button {
+  display: none;
+}
+.modal.date-inserter-modal .modal-header {
+  display: none;
+}
 .modal.date-inserter-modal .modal-content {
-  height: 305px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
+  min-height: 333px;
+  min-width: 303px;
+  position: relative;
+}
+.modal.date-inserter-modal .modal-content:has(.format-buttons) {
+  height: calc(333px + 2rem + 16px);
+}
+.modal.date-inserter-modal.has-week-numbers .modal-content {
+  min-width: 335px;
+}
+.modal.date-inserter-modal.has-week-numbers .week-numbers .dow {
+  height: 28.5px;
+}
+.modal.date-inserter-modal.has-week-numbers .datepicker .week {
+  color: #b5b5b5;
 }
 .modal.date-inserter-modal .invisible-input {
   opacity: 0;
   pointer-events: none;
-  height: 30px;
+  height: 333px;
+  position: relative;
 }
 .modal.date-inserter-modal .datepicker {
-  left: initial !important;
-  top: 30px !important;
+  left: 0 !important;
+  top: 0 !important;
+  margin-top: -333px;
+  position: relative;
+  width: 100%;
 }
 .modal.date-inserter-modal .datepicker .datepicker-picker {
   position: relative;
-  border: 0;
 }
-.modal.date-inserter-modal .datepicker .datepicker-picker .datepicker-header {
-  display: block;
+.modal.date-inserter-modal .datepicker .datepicker-controls > button {
+  height: 42.75px;
+}
+.modal.date-inserter-modal .datepicker .days .dow {
+  width: 42.75px;
+  height: 28.5px;
+}
+.modal.date-inserter-modal .datepicker .days .day {
+  width: 42.75px;
+  height: 42.75px;
 }
 .modal.date-inserter-modal .format-buttons {
   width: 100%;
+  height: 2rem;
+  margin-top: 16px;
 }
 .modal.date-inserter-modal .format-buttons button {
   width: 50%;
@@ -317,20 +349,44 @@
   white-space: nowrap;
 }
 
+.is-mobile .modal.date-inserter-modal .modal-close-button {
+  display: flex;
+}
+.is-mobile .modal.date-inserter-modal .modal-header {
+  display: initial;
+}
+.is-mobile .modal.date-inserter-modal .modal-content {
+  min-height: 349px;
+  margin-top: 0.75rem;
+  padding: 0;
+  top: 16px;
+}
+.is-mobile .modal.date-inserter-modal .modal-content:has(.format-buttons) {
+  height: calc(333px + 2rem + 16px + 16px);
+}
 .is-mobile .modal.date-inserter-modal .datepicker {
-  width: 303px;
-}
-.is-mobile .modal.date-inserter-modal .datepicker .days .dow {
-  width: 42.75px;
-  height: 28.5px;
-}
-.is-mobile .modal.date-inserter-modal .datepicker .days .day {
-  width: 42.75px;
-  height: 42.75px;
+  margin-top: 0px;
+  position: absolute;
 }
 
+.is-phone .modal.date-inserter-modal .modal-content {
+  min-width: 305px;
+  min-height: 335px;
+  top: 0px;
+}
+.is-phone .modal.date-inserter-modal .modal-content:has(.format-buttons) {
+  height: calc(333px + 2rem + 16px);
+}
 .is-phone .modal.date-inserter-modal .datepicker {
-  top: 0 !important;
+  width: 303px;
+  top: 1px !important;
+  left: 1px !important;
+}
+.is-phone .modal.date-inserter-modal.has-week-numbers .modal-content {
+  min-width: 337px;
+}
+.is-phone .modal.date-inserter-modal.has-week-numbers .datepicker {
+  width: 335px;
 }
 
 .setting-date-format-description {
@@ -372,6 +428,10 @@ body.theme-dark .modal.date-inserter-modal .datepicker-header .datepicker-contro
 body.theme-dark .modal.date-inserter-modal .datepicker span {
   color: var(--text-normal) !important;
 }
+body.theme-dark .modal.date-inserter-modal .datepicker-cell.prev:not(.disabled),
+body.theme-dark .modal.date-inserter-modal .datepicker-cell.next:not(.disabled) {
+  color: var(--text-muted) !important;
+}
 body.theme-dark .modal.date-inserter-modal .datepicker-cell:not(.disabled):hover {
   background-color: var(--color-base-30) !important;
 }
@@ -392,4 +452,7 @@ body.theme-dark .modal.date-inserter-modal .datepicker-cell.today:not(.selected)
 }
 body.theme-dark .modal.date-inserter-modal .format-buttons button.selected {
   background-color: hsl(171, 100%, 30%);
+}
+body.theme-dark .modal.date-inserter-modal .datepicker .week {
+  color: #777777 !important;
 }

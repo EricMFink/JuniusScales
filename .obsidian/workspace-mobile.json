@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "942206bc8c18ae95",
+        "id": "34765129d64b66fe",
         "type": "tabs",
         "children": [
           {
-            "id": "1038b8c1c0534482",
+            "id": "0813b36768be59e1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Genealogy /Fink-UnknownConnection.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Fink-UnknownConnection"
             }
           }
         ]
@@ -33,7 +37,9 @@
           "type": "file-explorer",
           "state": {
             "sortOrder": "alphabetical",
-            "autoReveal": false
+            "autoReveal": false,
+            "showSearch": false,
+            "searchQuery": ""
           },
           "icon": "lucide-folder-closed",
           "title": "Files"
@@ -140,7 +146,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "peerdraft:Show my Peerdraft Shares": false,
       "bases:Create new base": false,
       "image-picker:Open Image Picker": false,
       "file-cleaner-redux:Clean files": false,
@@ -156,8 +161,13 @@
       "quickadd:QuickAdd": false
     }
   },
-  "active": "1038b8c1c0534482",
+  "active": "0813b36768be59e1",
   "lastOpenFiles": [
+    "Genealogy /Fink.md",
+    "Genealogy /Fink-Pollak-Hartmann.md",
+    "Genealogy /Fink-UnknownConnection.md",
+    "Genealogy /Ludmilla-Fink-&-Jakob-Zemanek.md",
+    "Genealogy /Bernhard-Kobias-16-Oct-1885.md",
     "Untitled.md",
     "Zotero/PDF/DataTrespass/Loyalty/@MotorCityPawn2020.pdf",
     "Zotero/PDF/DataTrespass/Loyalty/@ElectricalWorkers-JeffersonBroadcasting1953.pdf",

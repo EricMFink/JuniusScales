@@ -1,27 +1,22 @@
 {
   "database": "Zotero",
-  "noteImportFolder": "{{collections[0].name}}/notes",
+  "noteImportFolder": "notes",
   "pdfExportImageDPI": 120,
   "pdfExportImageFormat": "jpg",
   "pdfExportImageQuality": 100,
   "citeFormats": [
     {
-      "name": "Cite",
-      "format": "formatted-citation",
-      "cslStyle": "bluebook-law-review"
-    },
-    {
-      "name": "Bibliography",
+      "name": "cite",
       "format": "formatted-citation",
       "cslStyle": "bluebook-law-review"
     }
   ],
   "exportFormats": [
     {
-      "name": "Zotero Source Notes",
-      "outputPathTemplate": "{{collections[0].name}}/notes/@{{citekey}}.md",
-      "imageOutputPathTemplate": "{{collections[0].name}}/img/{{citekey}}",
-      "imageBaseNameTemplate": "((citekey))-img",
+      "name": "Zotero Research Notes",
+      "outputPathTemplate": "notes/{{citekey}}.md",
+      "imageOutputPathTemplate": "assets/img/{{citekey}}",
+      "imageBaseNameTemplate": "img",
       "templatePath": "assets/templates/zotero-notes.md",
       "cslStyle": "bluebook-law-review"
     }
@@ -29,5 +24,5 @@
   "citeSuggestTemplate": "[[{{citekey}}]]",
   "openNoteAfterImport": false,
   "whichNotesToOpenAfterImport": "first-imported-note",
-  "exeOverridePath": "/home/efink/Research/.obsidian/pdfannots2json"
+  "exeOverridePath": "/home/efink/Research/JuniusScales/.obsidian/pdfannots2json"
 }

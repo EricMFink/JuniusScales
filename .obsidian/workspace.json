@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "30199750b4e144a3",
+        "id": "1dfd936f39e0268b",
         "type": "tabs",
         "children": [
           {
-            "id": "089d65897aad940b",
+            "id": "5294f20540d371b6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "notes/@Belknap1977.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "@Belknap1977"
             }
           }
         ]
@@ -51,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "path:\"SupremeCourtReview2026/notes/\" ",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +80,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 303.5
+    "width": 200
   },
   "right": {
     "id": "7e1314546b4d1164",
@@ -138,6 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Genealogy /Fink-Přehořov.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -145,23 +150,13 @@
               "icon": "lucide-list",
               "title": "Outline"
             }
-          },
-          {
-            "id": "8522bba6bb384b16",
-            "type": "leaf",
-            "state": {
-              "type": "ReferenceListView",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "ReferenceListView"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 376.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -172,65 +167,63 @@
       "canvas:Create new canvas": true,
       "templates:Insert template": true,
       "iconic:Open rulebook": false,
-      "templater-obsidian:Templater": false,
-      "quickadd:QuickAdd": false,
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "media-extended:Open external media": false,
+      "media-extended:Open media library": false,
+      "media-extended:Open media quick switcher": false,
       "image-picker:Open Image Picker": false,
       "file-cleaner-redux:Clean files": false,
-      "obsidian-import-json:JSON/CSV Importer": false,
-      "peerdraft:Show my Peerdraft Shares": false
+      "obsidian-import-json:JSON/CSV Importer": false
     }
   },
-  "active": "cf490be3765810f8",
+  "active": "5294f20540d371b6",
   "lastOpenFiles": [
-    "Other State Laws/notes/@WyomingCriminalTrespass2015.md",
-    "Other State Laws/notes/@WyomingCivilTrespass2015.md",
-    "DataTrespass/notes/@WrightElecIncOuellette_MinnCtApp2004.md",
-    "AgGag/notes/@Wright2024.md",
-    "DataTrespass/notes/@WolfStreetSupermarketsInc_NYAppDiv1985.md",
-    "DataTrespass/notes/@WholeFoodsMarketInc_NLRB2015.md",
-    "DataTrespass/notes/@WhiteOakManor_NLRB2009.md",
-    "DataTrespass/notes/@Whistler2024.md",
-    "Other State Laws/notes/@WesternWatershedsProjectMichael_DWyo2018.md",
-    "Other State Laws/notes/@WesternWatershedsProjectMichael_DWyo2016.md",
-    "Other State Laws/notes/@WesternWatershedsProjectMichael_10thCir2017.md",
-    "DataTrespass/notes/@WellstreamCorp_NLRB1994.md",
-    "DataTrespass/notes/@Walsh2016.md",
-    "DataTrespass/notes/@WalMartStoresIncUnited_CalCtApp2016.md",
-    "NCPPA/notes/@Verger2015.md",
-    "DataTrespass/notes/@VanBourg1998.md",
-    "Other State Laws/notes/@UtahAgTrespass2023.md",
-    "Other State Laws/notes/@UtahAgriculturalOperation2023.md",
-    "DataTrespass/notes/@Twomey2004.md",
-    "NCPPA/notes/@TuckerAutoMationNorthCarolina_MDNC2017.md",
-    "DataTrespass/notes/@Townsend2023.md",
-    "DataTrespass/notes/@ToeringElectricCo_NLRB2007.md",
-    "DataTrespass/notes/@TMobileUSAInc_NLRB2016.md",
-    "DataTrespass/notes/@TKOFleetEnterprisesDistrict_EDNY1999.md",
-    "DataTrespass/notes/@TimesHeraldRecord_NLRB2001.md",
-    "Other State Laws/notes/@TimberAutomationLLCFiberPro_WDArk2020.md",
-    "Labor & Employment Law/notes",
-    "Labor & Employment Law",
-    "other/notes",
-    "other",
-    "Agricultural Employees/notes",
-    "Agricultural Employees",
-    "NCPPA/notes",
-    "NCPPA",
-    "AgGag/notes",
-    "AgGag",
-    "JuniusScales/_site/img/scales.jpg",
-    "JuniusScales/_extensions/schochastics/academicons/assets/webfonts/academicons.svg",
-    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/ringed-seal.png",
-    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/otter-bar.jpeg",
-    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/nmfs-opensci-logo.png",
-    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/logo.png",
-    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/corner-bg.png",
-    "JuniusScales/_extensions/nmfs-opensci/titlepage/images/TheGreatWaveoffKanagawa.jpeg",
-    "JuniusScales/assets/img/scales.jpg",
-    "Unemployment Comp & Political Activity/documents/Instagram post about Olivia Lynch.png"
+    "DataTrespass/PCA/notes/DataTrespass/PCA/AlstateMaintenanceLLC_NLRB2019",
+    "DataTrespass/PCA/notes/DataTrespass/PCA",
+    "DataTrespass/PCA/notes/DataTrespass",
+    "DataTrespass/PCA/notes",
+    "DataTrespass/PCA",
+    "notes/DataTrespass/PCA/AlstateMaintenanceLLC_NLRB2019",
+    "notes/DataTrespass/PCA",
+    "notes/DataTrespass",
+    "notes",
+    "[object Object]/notes/DataTrespass/PCA/AlstateMaintenanceLLC_NLRB2019",
+    "[object Object]/notes/DataTrespass/PCA",
+    "Baking/Bread/Challah.md",
+    "Cooking/Sweets/fig_jam.md",
+    "Genealogy /Fink.md",
+    "Genealogy /Bela (Fink) Taub.md",
+    "Genealogy /Untitled.md",
+    "Genealogy /Fink-UnknownConnection.md",
+    "Genealogy /My Place Kalinkovichi.md",
+    "Genealogy /Kalinkovichi.md",
+    "Genealogy /Jews in Kalinkovichi 1941-45.md",
+    "Genealogy /Moll-Lowenthal.md",
+    "Genealogy /Frankel.md",
+    "Genealogy /Frenkel-Sheinin-Golod.md",
+    "Genealogy /Karasik.md",
+    "Genealogy /Kraus.md",
+    "Genealogy /Schwarz (Lyantskorun).md",
+    "Genealogy /Lyantskorun.md",
+    "Genealogy /Fink-Pollak-Hartmann.md",
+    "Genealogy /Fink-Přehořov (conflicted).md",
+    "Genealogy /Fink-Cemetaries.md",
+    "Unemployment Comp & Political Activity/@BalaComUnemploymentCompensation_CommonwealthCourt1979.md",
+    "Zotero/Labor & Employment/Unemployment Comp & Political Activity/@BalaComUnemploymentCompensation_CommonwealthCourt1979.md",
+    "Zotero/Labor & Employment/Unemployment Comp & Political Activity/@AultUnemploymentCompensationCase_SupremeCourt1960.md",
+    "Zotero/Scales_v_US/@JuniusScales_LouisProyect_nd.md",
+    "Zotero/Scales_v_US/@JuniusScales_FromtheRockWall_nd.md",
+    "Zotero/{{collections[0].fullPath}}/JuniusScales_LouisProyect_nd.md",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_version.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_3.webp",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_2.webp",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_1.webp",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_0.webp",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_upper.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_title.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_sentence.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_lower.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_dic.png"
   ]
 }

@@ -5302,8 +5302,8 @@ function removeExtraCommas(str) {
 }
 function cleanTags(str) {
   let cleanStr = str;
-  for (let index2 in KNOWN_BAD_CHARACTERS) {
-    cleanStr = cleanStr.replaceAll(KNOWN_BAD_CHARACTERS[index2], "");
+  for (let i = 0; i < KNOWN_BAD_CHARACTERS.length; i++) {
+    cleanStr = cleanStr.replaceAll(KNOWN_BAD_CHARACTERS[i], "");
   }
   return cleanStr;
 }
@@ -6139,6 +6139,9 @@ var MultiPropPlugin2 = class extends import_obsidian7.Plugin {
       this.app.workspace.on("file-menu", (menu, node) => {
         let title = "";
         let obj;
+        if (node instanceof import_obsidian7.TFile && node.extension !== "md") {
+          return;
+        }
         if (node instanceof import_obsidian7.TFile) {
           obj = [node];
           title = "Add props to file.";
@@ -6167,6 +6170,9 @@ var MultiPropPlugin2 = class extends import_obsidian7.Plugin {
       this.app.workspace.on("file-menu", (menu, node) => {
         let title = "";
         let obj;
+        if (node instanceof import_obsidian7.TFile && node.extension !== "md") {
+          return;
+        }
         if (node instanceof import_obsidian7.TFile) {
           obj = [node];
           title = "Remove props from file.";
@@ -6183,7 +6189,9 @@ var MultiPropPlugin2 = class extends import_obsidian7.Plugin {
       id: "add-props-to-tab-group",
       name: "Add props to tabs in active tab group",
       callback: async () => {
-        const files = this._getFilesFromTabGroup(this.app.workspace.activeLeaf);
+        const files = this._getFilesFromTabGroup(
+          this.app.workspace.getMostRecentLeaf()
+        );
         if (!files || !files.length) {
           new import_obsidian7.Notice(
             "No open tabs in the active tab group to add properties to.",
@@ -6197,7 +6205,7 @@ var MultiPropPlugin2 = class extends import_obsidian7.Plugin {
     this.registerEvent(
       this.app.workspace.on("tab-group-menu", (menu) => {
         const obj = this._getFilesFromTabGroup(
-          this.app.workspace.getLeaf(false)
+          this.app.workspace.getMostRecentLeaf()
         );
         menu.addItem((item) => {
           item.setIcon("archive").setTitle("Add props from all tabs").onClick(() => this.createPropModal(obj));
@@ -6209,7 +6217,7 @@ var MultiPropPlugin2 = class extends import_obsidian7.Plugin {
       name: "Remove props from tabs in active tab group",
       callback: async () => {
         const files = this._getFilesFromTabGroup(
-          this.app.workspace.getLeaf(false)
+          this.app.workspace.getMostRecentLeaf()
         );
         if (!files || !files.length) {
           new import_obsidian7.Notice(
@@ -6224,7 +6232,7 @@ var MultiPropPlugin2 = class extends import_obsidian7.Plugin {
     this.registerEvent(
       this.app.workspace.on("tab-group-menu", (menu) => {
         const obj = this._getFilesFromTabGroup(
-          this.app.workspace.getLeaf(false)
+          this.app.workspace.getMostRecentLeaf()
         );
         menu.addItem((item) => {
           item.setIcon("archive").setTitle("Remove props from all tabs").onClick(() => this.createRemoveModal(obj));
@@ -6439,7 +6447,7 @@ var MultiPropPlugin2 = class extends import_obsidian7.Plugin {
         "Added props to " + count + "/" + totalFiles + " files"
       );
       if (count === totalFiles) {
-        setTimeout(() => {
+        activeWindow.setTimeout(() => {
           statusBarItem.remove();
         }, 5e3);
       }
@@ -6459,7 +6467,7 @@ var MultiPropPlugin2 = class extends import_obsidian7.Plugin {
         "Removed props from " + count + "/" + totalFiles + " files"
       );
       if (count === totalFiles) {
-        setTimeout(() => {
+        activeWindow.setTimeout(() => {
           statusBarItem.remove();
         }, 5e3);
       }
