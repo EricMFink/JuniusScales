@@ -3,3 +3,7 @@
 /.luarc.json
 
 **/*.quarto_ipynb
+assets/pandoc
+assets/pandoc/*.*
+assets/templates
+assets/templates/*.*
