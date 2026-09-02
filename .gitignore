@@ -7,3 +7,12 @@ assets/pandoc
 assets/pandoc/*.*
 assets/templates
 assets/templates/*.*
+.obsidian
+.obsidian/*.*
+.obsidian/themes
+.obsidian/themes/*.*
+.obsidian/snippets
+.obsidian/snippets/*.*
+.obsidian/plugins
+.obsidian/plugins/*
+.obsidian/plugins/*/*.*
