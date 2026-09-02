@@ -1,7 +1,0 @@
-{
-  "__VERSION__": 2,
-  "release.previous-version": "4.2.7",
-  "playback.default-volume": 70,
-  "playback.screenshot.format": "image/webp",
-  "note.embed.load-strategy": "play"
-}
