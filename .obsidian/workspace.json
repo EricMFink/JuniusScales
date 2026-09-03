@@ -157,6 +157,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "templater-obsidian:Templater": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": true,
       "switcher:Open quick switcher": false,

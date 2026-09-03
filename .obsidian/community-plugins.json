@@ -21,5 +21,6 @@
   "obsidian-zotero-desktop-connector",
   "obsidian-pandoc-reference-list",
   "dataview",
-  "front-matter-timestamps"
+  "front-matter-timestamps",
+  "templater-obsidian"
 ]
