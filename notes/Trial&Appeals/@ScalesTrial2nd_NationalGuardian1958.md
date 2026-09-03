@@ -1,16 +1,16 @@
 ---
-citekey: ScalesTrial2nd_NationalGuardian1958
 title: Scales on Trial for 2nd Time in Renewed Smith Act Move
-author: 
+author:
 year: 1958
 type: newspaperArticle
-collection: JuniusScales 
+citekey: ScalesTrial2nd_NationalGuardian1958
+collection: Trial&Appeals
 tags: []
 created: 2025-07-14
-modified: 2026-08-22
+modified: 2026-09-03
 ---
 
-1. _Scales on Trial for 2nd Time in Renewed Smith Act Move_, National Guardian, Feb. 17, 1958, at 3.
+ _Scales on Trial for 2nd Time in Renewed Smith Act Move_, National Guardian, Feb. 17, 1958, at 3.
 
 [PDF](zotero://select/library/items/UAHA99C5)
 
@@ -25,4 +25,4 @@ modified: 2026-08-22
 
 
 
-%% Import Date: 2026-08-31T18:08:41.374-04:00 %%
+%% Import Date: 2026-09-03T15:02:24.096-04:00 %%

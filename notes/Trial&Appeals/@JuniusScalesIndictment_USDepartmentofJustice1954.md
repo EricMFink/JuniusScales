@@ -1,16 +1,16 @@
 ---
-citekey: JuniusScalesIndictment_USDepartmentofJustice1954
-title: Junius Scales Indictment
+title: "Junius Scales Indictment"
 author: 
 year: 1954
 type: document
-collection: JuniusScales 
+citekey: JuniusScalesIndictment_USDepartmentofJustice1954
+collection: Trial&Appeals 
 tags: []
 created: 2025-07-14
 modified: 2026-08-22
 ---
 
-1. _Junius Scales Indictment_, (1954), [https://www.archives.gov/exhibits/documented-rights/exhibit/section4/detail/scales-indictment-transcript.html](https://www.archives.gov/exhibits/documented-rights/exhibit/section4/detail/scales-indictment-transcript.html).
+ _Junius Scales Indictment_, (1954), [https://www.archives.gov/exhibits/documented-rights/exhibit/section4/detail/scales-indictment-transcript.html](https://www.archives.gov/exhibits/documented-rights/exhibit/section4/detail/scales-indictment-transcript.html).
 
 [@JuniusScalesIndictment_USDepartmentofJustice1954.pdf](zotero://select/library/items/UMI4JX4M)
 
@@ -31,4 +31,4 @@ modified: 2026-08-22
 
 
 
-%% Import Date: 2026-08-31T18:08:41.349-04:00 %%
+%% Import Date: 2026-09-03T15:02:24.084-04:00 %%

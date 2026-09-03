@@ -1,16 +1,16 @@
 ---
-citekey: ScalesUS_US1961
 title: Scales v. U.S.
 author: U.S.
 year: 1961
 type: case
-collection: JuniusScales 
+citekey: ScalesUS_US1961
+collection: Trial&Appeals
 tags: []
 created: 2025-07-14
-modified: 2026-08-22
+modified: 2026-09-03
 ---
 
-1. Scales v. U.S., 367 U.S. 203 (U.S. 1961).
+ Scales v. U.S., 367 U.S. 203 (U.S. 1961).
 
 [PDF](zotero://select/library/items/97DGJTRE)
 
@@ -25,4 +25,4 @@ modified: 2026-08-22
 
 
 
-%% Import Date: 2026-08-31T18:08:41.384-04:00 %%
+%% Import Date: 2026-09-03T15:02:24.145-04:00 %%
