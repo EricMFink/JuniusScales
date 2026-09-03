@@ -1,0 +1,28 @@
+{
+  "database": "Zotero",
+  "noteImportFolder": "notes/",
+  "pdfExportImageDPI": 120,
+  "pdfExportImageFormat": "jpg",
+  "pdfExportImageQuality": 100,
+  "citeFormats": [
+    {
+      "name": "cite",
+      "format": "formatted-citation",
+      "cslStyle": "bluebook-law-review"
+    }
+  ],
+  "exportFormats": [
+    {
+      "name": "Zotero Research Notes",
+      "outputPathTemplate": "notes/{{collections[0].name}}/@{{citekey}}.md",
+      "imageOutputPathTemplate": "assets/img/{{citekey}}",
+      "imageBaseNameTemplate": "img",
+      "templatePath": "assets/templates/zotero-notes.md",
+      "cslStyle": "bluebook-law-review"
+    }
+  ],
+  "citeSuggestTemplate": "[[{{citekey}}]]",
+  "openNoteAfterImport": false,
+  "whichNotesToOpenAfterImport": "first-imported-note",
+  "exeOverridePath": "/home/efink/Research/DataTrespass/.obsidian/pdfannots2json"
+}

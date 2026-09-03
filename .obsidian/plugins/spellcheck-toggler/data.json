@@ -1,0 +1,28 @@
+{
+  "externalLinks": {
+    "behaviour": "global",
+    "frontmatterFallback": "global"
+  },
+  "internalLinks": {
+    "behaviour": "global"
+  },
+  "bareLinks": {
+    "behaviour": "global"
+  },
+  "htmlComments": {
+    "behaviour": "default"
+  },
+  "anyNode": {
+    "behaviour": "frontmatter",
+    "frontmatterOverride": "nospell"
+  },
+  "emphasis": {
+    "behaviour": "default"
+  },
+  "strong": {
+    "behaviour": "default"
+  },
+  "blockquote": {
+    "behaviour": "default"
+  }
+}

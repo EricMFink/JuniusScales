@@ -1,0 +1,22 @@
+{
+  "pathToPandoc": "/usr/bin/pandoc",
+  "tooltipDelay": 400,
+  "zoteroGroups": [
+    {
+      "id": 1,
+      "name": "My Library",
+      "lastUpdate": 1788214142679
+    }
+  ],
+  "renderCitations": true,
+  "renderCitationsReadingMode": true,
+  "renderLinkCitations": true,
+  "pathToBibliography": "/home/efink/GitHub/Zotero/Library.yaml",
+  "pullFromZotero": true,
+  "cslStylePath": "/home/efink/GitHub/Zotero/CSL-styles/indigobook-law-review.csl",
+  "cslStyleURL": "https://raw.githubusercontent.com/citation-style-language/styles/master/bluebook-law-review.csl",
+  "cslLang": "en-US",
+  "hideLinks": true,
+  "enableCiteKeyCompletion": true,
+  "showCitekeyTooltips": true
+}

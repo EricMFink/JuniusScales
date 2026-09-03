@@ -1,0 +1,225 @@
+{
+  "main": {
+    "id": "0fedf3c2922dbada",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f0b77eeeb00d41e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ff01a63e6a5174c1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "45049b2f706b6779",
+    "type": "split",
+    "children": [
+      {
+        "id": "be3253668b222294",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf490be3765810f8",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "8f14bc8c91c64cbd",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f10f67bf9b2112f3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 301.5
+  },
+  "right": {
+    "id": "7e1314546b4d1164",
+    "type": "split",
+    "children": [
+      {
+        "id": "4e84f5f848e3c455",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47ef1c3ccc59b545",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "3cc383006f4bb8ce",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "dfd7cb607133cdb0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "5892b72f92484a66",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Genealogy /Fink-Přehořov.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 376.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "command-palette:Open command palette": false,
+      "bases:Create new base": true,
+      "switcher:Open quick switcher": false,
+      "canvas:Create new canvas": true,
+      "templates:Insert template": true,
+      "iconic:Open rulebook": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "media-extended:Open media library": false,
+      "media-extended:Open media quick switcher": false,
+      "image-picker:Open Image Picker": false,
+      "file-cleaner-redux:Clean files": false,
+      "obsidian-import-json:JSON/CSV Importer": false
+    }
+  },
+  "active": "ff01a63e6a5174c1",
+  "lastOpenFiles": [
+    "notes/Salting/@Walsh2016.md",
+    "notes/Salting/@VanBourg1998.md",
+    "notes/Salting/@Twomey2004.md",
+    "notes/Salting/@Townsend2023a.md",
+    "notes/Salting/@ToeringElectricCo_NLRB2007.md",
+    "notes/Salting/@SaltingCoerciveBig_NationalRighttoWorkCommittee2003.md",
+    "notes/Salting/@OilCapitolSheetMetal_NLRB2007.md",
+    "notes/Salting/@Lam2016.md",
+    "notes/Salting/@Johnson2017.md",
+    "notes/Salting/@Forman2017.md",
+    "notes/Salting/@FluorDanielInc_NLRB1993.md",
+    "notes/Salting/@Dall2002.md",
+    "notes/Salting/@ArrowFlintElectricCo_NLRB1996.md",
+    "notes/Salting/@AerotekIncNLRB_8thCir2018.md",
+    "notes/Salting",
+    "notes/Recording/@YouHaveRightRecord_Poulos_OnLabor2025.md",
+    "notes/Recording/@StarbucksCorporation_NLRBDivofJudges2025.md",
+    "notes/Recording/@NLRBStarbucksCorporation_3dCir2024.md",
+    "notes/Recording/@McAllister2023.md",
+    "notes/Recording/@EastBeldenCorp_NLRB1978.md",
+    "notes/Recording",
+    "notes/Preemption/@WrightElecIncOuellette_MinnCtApp2004.md",
+    "notes/Preemption/@WolfStreetSupermarketsInc_NYAppDiv1985.md",
+    "notes/Preemption/@Whistler2024.md",
+    "notes/Preemption/@WalMartStoresIncUnited_CalCtApp2016.md",
+    "notes/Preemption/@TKOFleetEnterprisesDistrict_EDNY1999.md",
+    "notes/Preemption/@SureTanIncNLRB_US1984.md",
+    "notes/Preemption/@StateDeAngelo_NJSupCtAppDiv2007.md",
+    "notes/Preemption",
+    "notes/PCA",
+    "notes/NCPPA",
+    "notes/Agricultural Employees",
+    "notes/Ag-Gag",
+    "notes/Loyalty",
+    "notes/DataTrespass",
+    "notes/agricultural-employees",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_version.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_3.webp",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_2.webp",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_1.webp",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/zotero_0.webp",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_upper.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_title.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_sentence.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_lower.png",
+    "assets/scripts/zotero-scripts-main/zotero-text-case/doc/tcase_dic.png"
+  ]
+}

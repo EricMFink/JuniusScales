@@ -1,0 +1,81 @@
+{
+  "biggerIcons": "mobile",
+  "clickableIcons": "on",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": false,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": false,
+  "showMenuActions": true,
+  "showSuggestionIcons": false,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
+  "showItemName": "on",
+  "useSearchKeywords": "on",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "maxBackups": 5,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {},
+  "bookmarkIcons": {},
+  "tagIcons": {},
+  "propertyIcons": {
+    "author": {
+      "icon": "lucide-user-round-pen"
+    },
+    "citekey": {
+      "icon": "lucide-key-round"
+    },
+    "collection": {
+      "icon": "lucide-library-big"
+    },
+    "created": {
+      "icon": "lucide-calendar"
+    },
+    "date": {
+      "icon": "lucide-calendar"
+    },
+    "source": {
+      "icon": "link"
+    },
+    "title": {
+      "icon": "lucide-book-type"
+    },
+    "type": {
+      "icon": "lucide-book-open-text"
+    },
+    "url": {
+      "icon": "link"
+    }
+  },
+  "ribbonIcons": {},
+  "fileRules": [],
+  "folderRules": [
+    {
+      "id": "vNHg6",
+      "name": "Untitled rule",
+      "match": "all",
+      "conditions": [
+        {
+          "source": "name",
+          "operator": "contains"
+        }
+      ],
+      "enabled": true
+    }
+  ],
+  "biggerSearchResults": "mobile",
+  "rememberDeletedItems": true
+}
