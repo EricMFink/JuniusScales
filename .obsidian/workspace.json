@@ -11,10 +11,14 @@
             "id": "d6944c8a2435249e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "assets/templates/zotero-notes.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "zotero-notes"
             }
           }
         ]
@@ -157,7 +161,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "templater-obsidian:Templater": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": true,
       "switcher:Open quick switcher": false,
@@ -171,7 +174,8 @@
       "media-extended:Open media quick switcher": false,
       "image-picker:Open Image Picker": false,
       "file-cleaner-redux:Clean files": false,
-      "obsidian-import-json:JSON/CSV Importer": false
+      "obsidian-import-json:JSON/CSV Importer": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "d6944c8a2435249e",
